@@ -510,9 +510,9 @@ input, select, textarea {
 			text-shadow: 0 0 0.5em rgba(255,255,255,0.5);
 		}
 
-		/* #header nav {
+		#header nav {
 			margin: 1.5em 0 0 0;
-		} */
+		}
 
 			#header nav li {
 				-moz-animation: nav-icons 0.5s ease-in-out forwards;
