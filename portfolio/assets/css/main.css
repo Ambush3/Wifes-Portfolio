@@ -1120,3 +1120,85 @@ input, select, textarea {
 #wrapper #header nav li:nth-child(3) .label {
 	margin-left: -10px;
 }
+
+
+#learningActivitiesMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3em;
+}
+
+#desktopNav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	color: black;
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+#desktopNav ul li a {
+	border-bottom: none;
+}
+
+#desktopNav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#desktopNav li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 1em;
+	border-bottom:rgba(0, 0, 0, 0) 2px solid;
+	font-size: 1.5em;
+	text-shadow: #000;
+}
+
+#desktopNav li:hover{
+	cursor: pointer;
+	color: white;
+}
+
+#bg .learningActivitiesList {
+/* center of page */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 12em;
+}
+
+#bg .learningActivitiesList {
+	font-size: 1.5em;
+	color: black;
+}
+
+.firstList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.firstList li{
+	text-align: right;
+}
+
+.secondList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 2em;
+}

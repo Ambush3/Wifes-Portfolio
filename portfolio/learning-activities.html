@@ -31,35 +31,44 @@
                 </ul>
             </div>
         </nav>
-        <div id="bg"></div>
+        <!-- Nav that shows on desktop -->
+        <nav id="desktopNav">
+            <ul>
+                <li><a href="/portfolio/index.html">Home</a></li>
+                <li><a href="/portfolio/about-me.html">About Me</a></li>
+                <li><a href="/portfolio/reviews.html">Reviews</a></li>
+                <li><a href="/portfolio/books.html">Books</a></li>
+                <li><a href="/portfolio/skills.html">Skills</a></li>
+                <li><a href="/portfolio/teaching-philosophy.html">Teaching Philosophy</a></li>
+            </ul>
+        </nav>
+        <div id="bg">
+            <section class="learningActivitiesList">
+                <ul class="firstList">Cooking/baking with children: </ul>
+                    <li>independence</li>
+                    <li>math skills</li>
+                    <li>fine motor/gross motor skills</li>
+                    <li>problem solving</li>
+                </ul>   
+                <ul class="secondList">
+                    <li>ASL Activities</li>
+                    <li>Language/Literacy</li>
+                    <li>Math/Counting</li>
+                    <li>Music/Movement</li>
+                    <li>Creative Arts</li>
+                </ul>
+            </section>
+        </div>
         <div id="overlay"></div>
-        <div id="main">
-
+        <div id="learningActivitiesMain">
+        
             <!-- Header -->
-            <header id="headerLA">
+            <header id="header">
                 <h1>Learning Activities</h1>
-
-                <!-- <h1>Sydney Bush</h1>
-                <p>Childcare Provider</p>
-                <nav class="navSection">
-                    <ul class="mainIcons">
-                        <li><a href="/portfolio/about-me.html" class="fa-solid fa-heart"><span class="label">About
-                                    Me</span></a></li>
-                        <li><a href="/portfolio/reviews.html" class="fa-solid fa-star"><span class="label">My
-                                    Reviews</span></a></li>
-                        <li><a href="/portfolio/learning-activities.html" class="fa-solid fa-graduation-cap"><span
-                                    class="label">Learning Activities</span></a></li>
-                        <li><a href="/portfolio/books.html" class="fa-solid fa-book-open"><span
-                                    class="label">Books</span></a></li>
-                        <li><a href="/portfolio/skills.html" class="fa-solid fa-hammer"><span
-                                    class="label">Skills</span></a></li>
-                        <li><a href="/portfolio/teaching-philosophy.html" class="fa-solid fa-chalkboard"><span
-                                    class="label">Teaching Philosophy</span></a></li>
-                    </ul>
-                </nav> -->
             </header>
         </div>
     </div>
+
     <script>
         window.onload = function () { document.body.classList.remove('is-preload'); }
         window.ontouchmove = function () { return false; }
