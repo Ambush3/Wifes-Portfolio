@@ -1162,8 +1162,9 @@ input, select, textarea {
 	flex-direction: column;
 	margin: 0 1em;
 	border-bottom:rgba(0, 0, 0, 0) 2px solid;
-	font-size: 1.5em;
-	text-shadow: #000;
+	color: black;
+	font-weight: 550;
+	font-size: 1.25em;
 }
 
 #desktopNav li:hover{
