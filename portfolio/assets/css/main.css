@@ -1172,33 +1172,37 @@ input, select, textarea {
 }
 
 #bg .learningActivitiesList {
-/* center of page */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin-top: 12em;
-}
-
-#bg .learningActivitiesList {
-	font-size: 1.5em;
+	margin-top: 8em;
 	color: black;
+	font-weight: 550;
+	font-size: 1.5em;
 }
 
-.firstList {
+#bg .learningActivitiesListBlockLeft {
+	margin-top: 1em;
+}
+
+/* Put list-style markers for all li elements */
+#bg .learningActivitiesList ul li {
+	list-style: disc;
+}
+
+#bg .learningActivitiesListBlockLeft {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.firstList li{
-	text-align: right;
-}
-
-.secondList {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: right;
+	align-items: right;
 	flex-direction: column;
-	margin-top: 2em;
+}
+
+#bg .learningActivitiesListBlockLeft ul li {
+	display: flex;
+	justify-content: left;
+}
+
+#bg .learningActivitiesListBlockLeft h2 {
+	list-style-type: disc;
 }
