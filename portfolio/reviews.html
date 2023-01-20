@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Sydney Bush</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <script src="https://kit.fontawesome.com/94a8dc06e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="is-preload">
+<div id="wrapper">
+    <nav id="nav">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="/about-me.html">About Me</a></li>
+                <li><a class="menu__item" href="/reviews.html">Reviews</a></li>
+                <li><a class="menu__item" href="/learning-activities.html">Learning Activities</a></li>
+                <li><a class="menu__item" href="/books.html">Books</a></li>
+                <li><a class="menu__item" href="/skills.html">Skills</a></li>
+                <li><a class="menu__item" href="/teaching-philosophy.html">Teaching Philosophy</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Nav that shows on desktop -->
+    <nav id="desktopNav">
+        <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/about-me.html">About Me</a></li>
+            <li><a href="/books.html">Books</a></li>
+            <li><a href="/skills.html">Skills</a></li>
+            <li><a href="/teaching-philosophy.html">Teaching Philosophy</a></li>
+        </ul>
+    </nav>
+    <div id="learningActivitiesWrapper">
+        <section class="learningActivities">
+            <p class="learningActivitiesParagraph">
+
+            </p>
+        </section>
+    </div>
+    <div id="overlay"></div>
+    <div id="learningActivitiesMain">
+
+        <!-- Header -->
+        <header id="header">
+            <h1>Reviews</h1>
+        </header>
+    </div>
+</div>
+
+<script>
+    window.onload = function () { document.body.classList.remove('is-preload'); }
+    window.ontouchmove = function () { return false; }
+    window.onorientationchange = function () { document.body.scrollTop = 0; }
+</script>
+</body>
+
+</html>
