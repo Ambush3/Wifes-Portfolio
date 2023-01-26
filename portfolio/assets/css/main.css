@@ -1340,20 +1340,14 @@ input, select, textarea {
 	.learningActivities .learningActivitiesParagraph {
 		width: 90%;
 	}
-	.childrensAuthorsHeader,
-	.childrensPsychologyHeader{
-		width: 90%;
-	}
-	.childrensAuthors,
-	.childrensPsychology {
-		width: 90%;
-	}
+
 	.childrensBooks,
 	.childrensBooks2{
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
-		margin-top: 20em;
+	}
+	.childrensBooks2{
+		margin-top: 0;
 	}
 	.childrensBooks li,
 	.childrensBooks2 li {
@@ -1361,7 +1355,10 @@ input, select, textarea {
 	}
 	.childrensBooks li p,
 	.childrensBooks2 li p {
-		width: 90%;
+		width: 100%;
+		margin-top: 60px;
+		font-size: 20px;
+		font-weight: bold;
 	}
 	.childrensBooks li img,
 	.childrensBooks2 li img {
@@ -1370,6 +1367,8 @@ input, select, textarea {
 
 	#learningActivitiesWrapper {
 		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	#wrapper #learningActivitiesWrapper .reviews {
@@ -1380,5 +1379,16 @@ input, select, textarea {
 		margin-top: 10em;
 		width: 50%;
 		font-size: 20px;
+	}
+
+
+	#learningActivitiesWrapper .books {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color: black;
+		font-weight: 550;
+		font-size: 1.5em;
 	}
 }
