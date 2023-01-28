@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Sydney Bush</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <script src="https://kit.fontawesome.com/94a8dc06e7.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="is-preload">
+<div id="skillsWrapper">
+    <nav id="nav">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="/home.html">Home</a></li>
+                <li><a class="menu__item" href="/about-me.html">About Me</a></li>
+                <li><a class="menu__item" href="/reviews.html">Reviews</a></li>
+                <li><a class="menu__item" href="/learning-activities.html">Learning Activities</a></li>
+                <li><a class="menu__item" href="/books.html">Books</a></li>
+                <li><a class="menu__item" href="/teaching-philosophy.html">Teaching Philosophy</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Nav that shows on desktop -->
+    <nav id="desktopNav">
+        <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/about-me.html">About Me</a></li>
+            <li><a href="/reviews.html">Reviews</a></li>
+            <li><a href="/learning-activities.html">Learning Activities</a></li>
+            <li><a href="/books.html">Books</a></li>
+            <li><a href="/teaching-philosophy.html">Teaching Philosophy</a></li>
+        </ul>
+    </nav>
+    <div id="learningActivitiesMain">
+        <!-- Header -->
+        <header id="header">
+            <h1>Skills</h1>
+        </header>
+    </div>
+    <div id="learningActivitiesWrapper">
+        <section class="learningActivities">
+            <p class="learningActivitiesParagraph">
+                I am experienced in providing nurturing and stimulating care for children of all ages,
+                and am able to create a safe and positive environment for them to thrive in. My strong organizational
+                and time-management skills allow me to keep on top of daily routines and activities, ensuring that
+                children are well-fed, clean, and on schedule. I am also skilled in providing homework help and
+                educational activities that support children's cognitive development. Additionally, I possess strong
+                communication and interpersonal skills, which enable me to effectively communicate with children,
+                parents, and other caregivers. I am proactive, responsible, and attentive to the needs of the children.
+                I am also flexible and able to adapt to different parenting styles and family dynamics.
+            </p>
+        </section>
+    </div>
+    <div id="overlay"></div>
+</div>
+
+<script>
+    window.onload = function () { document.body.classList.remove('is-preload'); }
+    window.ontouchmove = function () { return false; }
+    window.onorientationchange = function () { document.body.scrollTop = 0; }
+</script>
+</body>
+
+</html>
