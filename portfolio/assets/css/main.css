@@ -1391,4 +1391,14 @@ input, select, textarea {
 		font-weight: 550;
 		font-size: 1.5em;
 	}
+
+	.hamburger-menu,
+	.menu__btn,
+	.menu__toggle {
+		z-index: 4;
+	}
+
+	.menu__box {
+		z-index: 3;
+	}
 }
