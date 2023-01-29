@@ -230,6 +230,16 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	#learningWrapper {
+		-moz-animation: wrapper 3s forwards;
+		-webkit-animation: wrapper 3s forwards;
+		-ms-animation: wrapper 3s forwards;
+		animation: wrapper 3s forwards;
+		height: 1000px;
+		min-height: 100%;
+		width: 100%;
+	}
+
 /* BG */
 
 	#bg {
@@ -1469,12 +1479,40 @@ input, select, textarea {
 		margin-left: 12em;
 	}
 
-
 	#reviewsWrapper #learningActivitiesWrapper .reviews .review {
 		margin-top: 1em;
 		color: black;
 		font-size: 20px;
 		font-weight: bold;
+	}
+
+	#learningWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 1000px;
+	}
+
+	#learningWrapper #learningActivitiesWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	#skillsWrapper #learningActivitiesWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	#learningActivitiesWrapper .books .psychology h2 {
+		margin-left: 1.5em;
+	}
+
+	#learningActivitiesWrapper .books .authors h2 {
+		margin-left: 1.5em;
 	}
 
 	.hamburger-menu,
