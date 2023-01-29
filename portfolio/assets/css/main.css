@@ -220,6 +220,16 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	#reviewsWrapper {
+		-moz-animation: wrapper 3s forwards;
+		-webkit-animation: wrapper 3s forwards;
+		-ms-animation: wrapper 3s forwards;
+		animation: wrapper 3s forwards;
+		height: 800px;
+		min-height: 100%;
+		width: 100%;
+	}
+
 /* BG */
 
 	#bg {
@@ -1228,6 +1238,25 @@ input, select, textarea {
 }
 
 
+#reviewsWrapper #learningActivitiesWrapper {
+	display: flex;
+}
+
+#reviewsWrapper #learningActivitiesWrapper .reviews {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 20px;
+	width: 100%;
+}
+
+#reviewsWrapper #learningActivitiesWrapper .reviews .review {;
+	color: black;
+	margin-top: -1em;
+	font-size: 20px;
+	font-weight: bold;
+}
+
 #learningActivitiesMain {
 	background: lightpink;
 }
@@ -1416,7 +1445,6 @@ input, select, textarea {
 		font-size: 20px;
 	}
 
-
 	#learningActivitiesWrapper .books {
 		display: flex;
 		justify-content: center;
@@ -1425,6 +1453,28 @@ input, select, textarea {
 		color: black;
 		font-weight: 550;
 		font-size: 1.5em;
+	}
+
+	#reviewsWrapper #learningActivitiesWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	#reviewsWrapper #learningActivitiesWrapper .reviews {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-left: 12em;
+	}
+
+
+	#reviewsWrapper #learningActivitiesWrapper .reviews .review {
+		margin-top: 1em;
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
 	}
 
 	.hamburger-menu,
