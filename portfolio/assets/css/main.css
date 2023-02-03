@@ -215,7 +215,7 @@ input, select, textarea {
 		-webkit-animation: wrapper 3s forwards;
 		-ms-animation: wrapper 3s forwards;
 		animation: wrapper 3s forwards;
-		height: 800px;
+		height: 600px;
 		min-height: 100%;
 		width: 100%;
 	}
@@ -236,6 +236,16 @@ input, select, textarea {
 		-ms-animation: wrapper 3s forwards;
 		animation: wrapper 3s forwards;
 		height: 1000px;
+		min-height: 100%;
+		width: 100%;
+	}
+
+	#teachingPhilosophyWrapper {
+		-moz-animation: wrapper 3s forwards;
+		-webkit-animation: wrapper 3s forwards;
+		-ms-animation: wrapper 3s forwards;
+		animation: wrapper 3s forwards;
+		height: 800px;
 		min-height: 100%;
 		width: 100%;
 	}
@@ -1112,7 +1122,7 @@ input, select, textarea {
 /* mobile */
 @media screen and (max-width: 768px) {
 	.menu__box {
-		width: 150px
+		width: 200px
 	}
 	#wrapper #header nav {
 		display: none;
@@ -1505,6 +1515,24 @@ input, select, textarea {
 		flex-direction: column;
 		align-items: center;
 		justify-content: flex-start;
+	}
+
+	#skillsWrapper {
+		height: 800px;
+	}
+
+	#teachingPhilosophyWrapper #learningActivitiesWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	}
+
+	#aboutMeWrapper #learningActivitiesWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+			justify-content: flex-start;
 	}
 
 	#learningActivitiesWrapper .books .psychology h2 {
