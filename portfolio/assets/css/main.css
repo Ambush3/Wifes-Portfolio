@@ -1214,6 +1214,10 @@ input, select, textarea {
 	color: white;
 }
 
+#skillsWrapper {
+	height: 900px;
+}
+
 .learningActivities {
 	display: flex;
 	justify-content: center;
@@ -1486,7 +1490,7 @@ input, select, textarea {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		margin-left: 12em;
+		margin-left: 10em;
 	}
 
 	#reviewsWrapper #learningActivitiesWrapper .reviews .review {
